@@ -82,7 +82,7 @@ class Selectors:
 
 _SELECTORS = Selectors()
 VIDEO_AND_IMAGE_EXTS: set[str] = FILE_FORMATS["Images"] | FILE_FORMATS["Videos"]
-HOST_OPTIONS: set[str] = {"bunkr.site", "bunkr.cr", "bunkr.ph"}
+HOST_OPTIONS: set[str] = {"bunkr.site", "bunkr.cr", "bunkr.ph", "bunkr.si"}
 known_bad_hosts: set[str] = set()
 
 
